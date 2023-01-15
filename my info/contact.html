@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <style>
+    /* Add styles for the background image */
+    body {
+      background-image: url('https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg');
+      background-size: cover;
+    }
+
+    /* Add styles for the form */
+    form {
+	  background: rgba(76, 175, 80, 0.15);
+      
+	  padding: 20px;
+      border-radius: 10px;
+      margin: 50px auto;
+      width: 50%;
+    }
+  </style>
+</head>
+<body>
+  <form action="submit-form.php" method="post">
+    <h1>Contact Us</h1>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
